@@ -7,4 +7,29 @@
   width: 100%;
   height: 100%;
   background-color: hsl(23, 29%, 30%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  /* justify-content: center; */
+}
+
+.cocobod-logo {
+  display: inline-block;
+  height: 3.2rem;
+}
+
+.icons {
+  font-size: 32px;
+  font-weight: 300;
+  color: rgba(236, 221, 221, 0.8);
+}
+
+.nav-link-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: 4.5rem;
 }

@@ -6,10 +6,11 @@ import OtherInfo from "../system-details/system-details.component";
 function Form() {
   const [page, setPage] = useState(0);
   const [formData, setFormData] = useState({
-    email: "",
-    password: "",
-    confirmPassword: "",
-    firstName: "",
+    name: "",
+    contact: "",
+    gender: "",
+    barcode: "",
+    department: "",
     lastName: "",
     username: "",
     nationality: "",
