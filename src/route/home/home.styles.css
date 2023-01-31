@@ -1,0 +1,51 @@
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(32, 36%, 67%);
+  display: grid;
+  grid-template-columns: 7% 93%;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+}
+
+.heading-main {
+  font-family: "Great Vibes", cursive;
+  font-size: 5.5rem;
+  text-align: center;
+  color: hsl(23, 29%, 30%);
+  margin-top: 1rem;
+  font-weight: 300;
+}
+
+h1 > span {
+  margin-right: 2.5rem;
+}
+
+.cocoa-logo {
+  display: block;
+  position: absolute;
+  height: 35rem;
+  right: 0;
+  bottom: 0;
+  transform: translate(8rem, 9rem) rotate(-30deg);
+}
+
+.blur-main-container {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding: 1rem 0;
+}
+
+.transparentContainer {
+  width: 85%;
+  height: 30rem;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(4px);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
